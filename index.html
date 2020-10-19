@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Restaurants</h1>
+
+  <ul class="post-list">
+    {% for post in site.resto %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><i class="fas fa-utensils"></i> {{ post.title }} @ {{ post.city }} </a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

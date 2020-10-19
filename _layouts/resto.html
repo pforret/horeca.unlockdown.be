@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <div class="post-content">
+  	<div><i class="fas fa-map-marker-alt"></i> Adres: <a href="https://www.google.com/maps/place/{{ page.address }}">{{ page.address }}</a></div>
+  	{% if page.website %}<div><i class="fas fa-link"></i> Website: <a href="{{ page.website }}">{{ page.website | replace:'https://','' }}</a></div>{% endif %}
+  	{% if page.facebook %}<div><i class="fab fa-facebook-square"></i> Facebook: <a href="{{ page.facebook }}">{{ page.facebook | replace:'https://',''  | replace:'www.',''  }}</a></div>{% endif %}
+  	<hr/>
+    {{ content }}
+  </div>
+  	{% if page.announcement %}<div><i class="fas fa-bullhorn"></i> Lockdown 2 aankondiging: <a href="{{ page.announcement }}">{{ page.announcement | replace:'https://','' | truncate: 20 }}</a></div>{% endif %}
+
+{% for tag in page.categories %}
+  <span><i class="fas fa-thumbtack"></i> {{ tag }}</span>
+{% endfor %}
+{% for tag in page.tags %}
+  <span><i class="fas fa-tag"></i> {{ tag }}</span>
+{% endfor %}
+</article>
