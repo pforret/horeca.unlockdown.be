@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Category
-permalink: /category/
+permalink: /categories/
 ---
 {% assign cats =  site.resto | map: 'category' | join: ','  | split: ',' | uniq %}
 {% for cat in cats %}

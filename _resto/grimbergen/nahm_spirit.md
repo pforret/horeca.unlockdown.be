@@ -4,7 +4,7 @@ title: Nahm Spirit
 city: Grimbergen
 address: Prinsenstraat 3, 1850 Grimbergen
 facebook: https://www.facebook.com/NahmSpirit/
-logo: 
+logo: /assets/logo/nahm_spirit.jpg
 category: takeaway
 tags:
   - thai

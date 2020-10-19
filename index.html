@@ -6,12 +6,15 @@ layout: default
 
   <h1 class="page-heading">Restaurants</h1>
 
+  <p>Welke restaurants in de buurt zijn nu wegens COVID19 gesloten voor publiek, maar bieden take-away (ophalen) of delivery (levering) van hun maaltijden aan?
+  </p>
+
   <ul class="post-list">
     {% for post in site.resto %}
       <li>
-        <h2>
+        <h3>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><i class="fas fa-utensils"></i> {{ post.title }} @ {{ post.city }} </a>
-        </h2>
+        </h3>
       </li>
     {% endfor %}
   </ul>

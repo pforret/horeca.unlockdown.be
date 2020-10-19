@@ -7,14 +7,14 @@
 
 # Site settings
 title: Unlockdown Horeca
+subtitle: Steun uw lokale restaurants!
 email: peter@forret.com
 description: > # this means to ignore newlines until "baseurl:"
-    Help your horeca
+    Steun uw lokale ondernemers, bestel take-away of delivery en help de horeca overleven!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: pforret
-github_username:  pforret
-remote_theme : "manid2/lone-wolf-theme" 
+url: "https://horeca.unlockdown.be" # the base hostname & protocol for your site
+twitter_username: 
+github_username: 
 
 # Build settings
 markdown: kramdown
