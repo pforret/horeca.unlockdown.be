@@ -6,7 +6,7 @@ address: Brusselsesteenweg 133, 1850 Grimbergen
 website: https://vianapoli.be
 facebook: https://www.facebook.com/vianapoligrimbergen
 announcement: https://www.facebook.com/vianapoligrimbergen/posts/686243768660201
-logo: 
+logo: https://vianapoli.be/wp-content/uploads/2020/08/ViaNapoli-WIT-1536x740.png
 category: takeaway
 tags: pizza italiaans
   
