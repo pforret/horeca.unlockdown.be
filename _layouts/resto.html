@@ -15,8 +15,8 @@ layout: default
   	<hr/>
     {{ content }}
   </div>
-  	{% if page.announcement %}<div><i class="fas fa-bullhorn"></i> Lockdown 2 aankondiging: <a href="{{ page.announcement }}">{{ page.announcement | replace:'https://','' | truncate: 20 }}</a></div>{% endif %}
-
+  	{% if page.announcement %}<div class="text-secondary" ><i class="fas fa-bullhorn"></i> Lockdown 2 aankondiging: <a href="{{ page.announcement }}">{{ page.announcement | replace:'https://','' | truncate: 30 }}</a></div>{% endif %}
+<br />
 {% for tag in page.categories %}
   <span><i class="fas fa-thumbtack"></i> <a href="/categories#{{tag}}">{{ tag }}</a></span>
 {% endfor %}
