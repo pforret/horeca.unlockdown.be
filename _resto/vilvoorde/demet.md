@@ -2,7 +2,7 @@
 layout: resto
 title: Brasserie De Met
 city: Vilvoorde
-address: Tommenmolenstraat 18, 1850 Grimbergen
+address: Grote Markt 7, 1800 Vilvoorde
 website: https://www.de-met-vilvoorde.be/
 facebook: https://www.facebook.com/Brasserie-De-Met-vilvoorde-111838737133521
 announcement: https://www.facebook.com/permalink.php?story_fbid=188391592811568&id=111838737133521
