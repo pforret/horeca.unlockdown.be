@@ -1,37 +1,28 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.subtitle }}</a></li>
+<div class="container">
+  <footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+        <h3>{{ site.title }}</h3>
+        <small class="d-block mb-3 text-muted">{{ site.subtitle }}</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>In welke buurt?</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Grimbergen, Strombeek, Humbeek, Vilvoorde, Meise, Wolvertem, Brussel, ... </a></li>
         </ul>
       </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
+      <div class="col-6 col-md">
+        <h5>Waarom alleen daar?</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Je moet ergens beginnen</a></li>
         </ul>
       </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+      <div class="col-6 col-md">
+        <h5>Deze site</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="/about">Wie steunt dit?</a></li>
+        </ul>
       </div>
     </div>
-
-  </div>
-
-</footer>
+  </footer>
+</div>

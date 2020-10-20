@@ -7,7 +7,8 @@ website: https://ilcasale.be
 facebook: https://www.facebook.com/Ristorante-Pizzeria-IL-CASALE-101624039880554
 announcement: https://www.facebook.com/permalink.php?story_fbid=3578616888847901&id=101624039880554
 logo: /assets/logo/ilcasale.jpg
-category: takeaway
+category: 
+ - takeaway
 tags:
   - italiaans
   - pizza

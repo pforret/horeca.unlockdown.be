@@ -7,7 +7,9 @@ website: https://www.zugoe.be
 facebook: https://www.facebook.com/zugoe
 announcement: https://www.facebook.com/vianapoligrimbergen/posts/686243768660201
 logo: 
-category: takeaway, delivery
+category: 
+ - takeaway 
+ - delivery
 tags: belgisch
 ---
 

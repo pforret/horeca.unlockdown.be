@@ -7,7 +7,9 @@ website: https://tommenmolen.be
 facebook: https://www.facebook.com/tommenmolen.museumcafe
 announcement: https://www.facebook.com/tommenmolen.museumcafe/posts/1459205350951129
 logo: 
-category: takeaway, delivery
+category: 
+ - takeaway 
+ - delivery
 tags: brasserie, belgisch
 ---
 

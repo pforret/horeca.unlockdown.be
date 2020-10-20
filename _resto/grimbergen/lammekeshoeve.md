@@ -7,8 +7,10 @@ website: https://www.lammekeshoeve.be
 facebook: https://www.facebook.com/lammekeshoeve
 announcement: https://www.facebook.com/lammekeshoeve/posts/2793365937564284
 logo: 
-category: takeaway
-tags: belgisch frans
+category: 
+ - takeaway 
+tags: 
+ - belgisch
   
 ---
 

@@ -1,23 +1,30 @@
 ---
 layout: default
 ---
+<main role="main">
+  <section class="text-center">
+    <div class="container bg-gradient-primary">
+      <h1>Unlockdown de horeca!</h1>
+      <p class="lead">Welke <strong>restaurants</strong> in de buurt van Grimbergen/Vilvoorde zijn nu wegens COVID19 gesloten voor publiek,<br> maar bieden take-away (ophalen) of delivery (levering) van hun maaltijden aan?</p>
+    </div>
+  </section>
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        {% for post in site.resto %}
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+              <h4 class="card-text"><a class="" href="{{ post.url | prepend: site.baseurl }}"><i class="fas fa-utensils"></i> {{ post.title }}</a></h4>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">{{ post.city }}</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 
-<div class="home">
-
-  <h1 class="page-heading">Restaurants</h1>
-
-  <p>Welke restaurants in de buurt van Grimbergen zijn nu wegens COVID19 gesloten voor publiek, maar bieden take-away (ophalen) of delivery (levering) van hun maaltijden aan?
-  </p>
-
-
-
-  <ul class="post-list">
-    {% for post in site.resto %}
-      <li>
-        <h3>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><i class="fas fa-utensils"></i> {{ post.title }} @ {{ post.city }} </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+</main>
