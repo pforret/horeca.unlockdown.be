@@ -17,7 +17,17 @@ layout: default
             <div class="card-body">
               <h4 class="card-text"><a class="" href="{{ post.url | prepend: site.baseurl }}"><i class="fas fa-utensils"></i> {{ post.title }}</a></h4>
               <div class="d-flex justify-content-between align-items-center">
-                <small class="text-muted">{{ post.city }}</small>
+                <small class="text-muted">
+                    <i class="fas fa-map-marker-alt"></i> {{ post.city }}
+                    {% for tag in post.categories %}
+                    {% if tag=="delivery" %}
+                    <span><i title="{{ tag }}" class="fas fa-car"></i> </span>
+                    {% else %}
+                    <span><i title="{{ tag }}" class="fas fa-people-carry"></i> </span>
+                    {% endif %}
+                    {% endfor %}
+
+                </small>
               </div>
             </div>
           </div>
@@ -26,5 +36,4 @@ layout: default
       </div>
     </div>
   </div>
-
 </main>

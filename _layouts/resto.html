@@ -18,8 +18,12 @@ layout: default
   	{% if page.announcement %}<div class="text-secondary" ><i class="fas fa-bullhorn"></i> Lockdown 2 aankondiging: <a href="{{ page.announcement }}">{{ page.announcement | replace:'https://','' | truncate: 30 }}</a></div>{% endif %}
 <br />
 {% for tag in page.categories %}
-  <span><i class="fas fa-thumbtack"></i> <a href="/categories#{{tag}}">{{ tag }}</a></span>
-{% endfor %}
+    {% if tag=="delivery" %}
+    <span><i title="{{ tag }}" class="fas fa-car"></i> <a href="/categories#{{tag}}">{{ tag }}</a></span>
+    {% else %}
+    <span><i title="{{ tag }}" class="fas fa-people-carry"></i> <a href="/categories#{{tag}}">{{ tag }}</a></span>
+    {% endif %}
+    {% endfor %}
 {% for tag in page.tags %}
   <span><i class="fas fa-tag"></i> <a href="/tags#{{tag}}">{{ tag }}</a></span>
 {% endfor %}
