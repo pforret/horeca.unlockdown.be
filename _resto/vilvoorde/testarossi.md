@@ -3,7 +3,7 @@ layout: resto
 title: Testa Rossi
 city: Vilvoorde
 address: Hendrik I Lei 2, 1800 Vilvoorde
-website: https://testarossivilvoorde.be/
+website: https://testarossivilvoorde.be
 facebook: https://www.facebook.com/TestaRossiVilvoorde1
 announcement: https://www.facebook.com/TestaRossiVilvoorde1/photos/a.939567029392308/3983632361652411/
 logo: 

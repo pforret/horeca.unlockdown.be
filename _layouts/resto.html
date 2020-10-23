@@ -11,7 +11,8 @@ layout: default
   <div class="post-content">
   	<div><i class="fas fa-map-marker-alt"></i> Adres: <a href="https://www.google.com/maps/place/{{ page.address }}">{{ page.address }}</a></div>
   	{% if page.website %}<div><i class="fas fa-link"></i> Website: <a href="{{ page.website }}">{{ page.website | replace:'https://','' }}</a></div>{% endif %}
-  	{% if page.facebook %}<div><i class="fab fa-facebook-square"></i> Facebook: <a href="{{ page.facebook }}">{{ page.facebook | replace:'https://',''  | replace:'www.',''  }}</a></div>{% endif %}
+      {% if page.facebook %}<div><i class="fab fa-facebook-square"></i> Facebook: <a href="{{ page.facebook }}">{{ page.facebook | replace:'https://',''  | replace:'www.',''  }}</a></div>{% endif %}
+      {% if page.takeaway %}<div><img height=16 src="https://www.takeaway.com/favicon.ico"> Takeaway: <a href="{{ page.takeaway }}">{{ page.takeaway | replace:'https://',''  | replace:'www.',''  }}</a></div>{% endif %}
   	<hr/>
     {{ content }}
   </div>
