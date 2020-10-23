@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Deze site
 permalink: /about/
 ---
 Unlockdown.be is een privé initiatief van enkele brusselse Noordranders.

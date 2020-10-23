@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tags
+title: Keuken
 permalink: /tags/
 ---
 {% assign tags =  site.resto | map: 'tags' | join: ','  | split: ',' | uniq %}

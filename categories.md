@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Category
+title: Afhalen/Leveren
 permalink: /categories/
 ---
 {% assign cats =  site.resto | map: 'category' | join: ','  | split: ',' | uniq %}
