@@ -1,0 +1,42 @@
+---
+layout: default
+---
+<main role="main">
+    <section class="text-center">
+        <div class="container">
+            <h1>Help de lokale horeca in {{page.city}}!</h1>
+            <h5>Welke <strong>restaurants</strong> zijn nu wegens COVID19 gesloten voor publiek, maar bieden <a href="/categories/#takeaway">take-away</a> (afhalen) of <a href="/categories/#delivery">delivery</a> (levering) van hun maaltijden aan?</h5>
+        </div>
+    </section>
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                {% for post in site.resto %}
+                {% if page.home or page.city == post.city %}
+                {% if post.layout == "resto" %}
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-body">
+                            <h4 class="card-text"><a class="" href="{{ post.url | prepend: site.baseurl }}"><i class="fas fa-utensils"></i> {{ post.title }}</a></h4>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-muted">
+                                    <i class="fas fa-map-marker-alt"></i> {{ post.city }}
+                                    {% for tag in post.categories %}
+                                    {% if tag=="delivery" %}
+                                    <span><i title="{{ tag }}" class="fas fa-car"></i> </span>
+                                    {% else %}
+                                    <span><i title="{{ tag }}" class="fas fa-people-carry"></i> </span>
+                                    {% endif %}
+                                    {% endfor %}
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</main>

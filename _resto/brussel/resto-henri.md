@@ -3,7 +3,7 @@ layout: resto
 title: Resto Henri
 city: Brussel
 address: Jetsestraat 52, 1853 Strombeek-Bever
-website: https://restohenri.be/
+website: https://restohenri.be
 facebook: https://www.facebook.com/restohenri
 announcement: https://www.facebook.com/restohenri/posts/10159846046857573
 logo: /assets/logo/resto_henri.jpg
