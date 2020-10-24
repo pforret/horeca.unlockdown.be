@@ -10,7 +10,8 @@ logo:
 category: 
  - takeaway 
  - delivery
-tags: belgisch
+tags: 
+ - traiteur
 ---
 
 > Levering aan huis op woensdag en vrijdag – andere dagen op aanvraag

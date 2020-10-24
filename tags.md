@@ -3,8 +3,12 @@ layout: page
 title: Keuken
 permalink: /tags/
 ---
+<div class="container">
+  <div class="row">
+
 {% assign tags =  site.resto | map: 'tags' | join: ','  | split: ',' | uniq %}
 {% for tag in tags %}
+<div class='col-md-4 col-xs-12'>
   <h3><a name="{{tag}}">{{ tag }}</a></h3>
   <ul>
   {% for note in site.resto %}
@@ -13,4 +17,7 @@ permalink: /tags/
     {% endif %}
   {% endfor %}
   </ul>
+</div>
 {% endfor %}
+</div>
+</div>
