@@ -9,6 +9,7 @@ announcement: https://www.facebook.com/bottanik1850/posts/1530708783806727
 logo: /assets/logo/bottanik.jpg
 category: 
  - takeaway
+ - delivery
 tags:
   - belgisch
 
