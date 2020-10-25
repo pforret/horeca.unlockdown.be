@@ -6,7 +6,7 @@ address: Brusselsesteenweg 333d, 1785 Merchtem
 website: https://mayabee.be
 facebook: https://www.facebook.com/bistro.resto.mayabee
 announcement: https://www.facebook.com/bistro.resto.mayabee/posts/4232486130101130
-logo: https://cdn1.centralappstatic.com/api/v1/media/logo-medium/place-6453-wqmpua0uhgvpgpruqp7h.jpeg
+logo: /assets/logo/mayabee.jpg
 category: 
  - takeaway
 tags: 
