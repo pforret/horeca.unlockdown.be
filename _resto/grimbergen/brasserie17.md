@@ -5,8 +5,8 @@ city: Grimbergen
 address: Rijkenhoekstraat 17, 1850 Grimbergen
 website: https://www.brasserie17.be
 facebook: https://www.facebook.com/Brasserie17-113757446694130
-announcement: https://www.facebook.com/lammekeshoeve/posts/2793365937564284
-logo: https://static.wixstatic.com/media/b92922_0db062c78f80483c96c869d1bccb0d92~mv2.png/v1/fill/w_165,h_90,al_c,q_85,usm_0.66_1.00_0.01/Brasserie%2017%20NK%20.webp
+announcement: https://www.facebook.com/permalink.php?story_fbid=399471204789418&id=113757446694130
+logo: https://static.wixstatic.com/media/b92922_0db062c78f80483c96c869d1bccb0d92~mv2.png
 category: 
  - takeaway
 tags:
